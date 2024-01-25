@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h3,
+form button {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: normal;
+}
+
+body, input, textarea {
+    font-family: 'Noto Sans Tirhuta', cursive;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    padding: 5px 0;
+    background-color: #ffff;
+    color: #355fbb;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #355fbb;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section {
+    padding: 18px 0;
+    color: #355fbb;
+}
+
+section h2,
+section h3 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+    font-size: small;
+}
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.social-links li {
+    margin-left: 18px;
+}
+
+.social-links li a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #355fbb;
+}
+
+#contact .container {
+    display: block;
+}
+
+#services .container {
+    text-align: left;
+    width: 100%;
+}
+
+#services .container img {
+    width: 50%;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 120px;
+}
+
+form button {
+    background-color: #355fbb;
+    color: #ffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #182c61;
+}
+
+input:focus, textarea:focus {
+    outline-color: #355fbb;
+}
+
+footer {
+    background-color: #355fbb;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
